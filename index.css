@@ -104,14 +104,12 @@ body {
     height: 80px;
 }
 
-.interaction-icon.cross:hover,
-.interaction-icon.cross:active {
+.interaction-icon.cross:hover {
     background: #FFE7EF;
     box-shadow: 0px 0.625em 1.25em #EDD9DF;
 }
 
-.interaction-icon.heart:hover,
-.interaction-icon.heart:active {
+.interaction-icon.heart:hover {
     background: #DBFFF4;
     box-shadow: 0px 0.625em 1.25em #CCF1E6;
 }
