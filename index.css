@@ -13,20 +13,19 @@ body {
 .header-icons-container{
     display: flex;
     justify-content: space-between;
-    padding: 20px 20px;
+    padding: 1.25em;
 }
 
 .interaction-icons-section {
-    padding: 30px 0 0;
+    padding: 1.875em 0 0;
 }
 
 .interaction-icons-container {
     display: flex;
     justify-content: center;
-    gap:30px;
+    gap: 1.875em;
     width: 70%;
     margin: 0 auto;
-
 }
 
 .dog-posts-section {
@@ -43,21 +42,21 @@ body {
 
 .dog-description {
    font-weight: 600;
-   font-size: 20px;
+   font-size: 1.25rem;
    color: white;
 }
 
 .dog-bio {
     font-weight: 400;
-    font-size: 15px;
-    line-height: 32px;
+    font-size: 0.93rem;
+    line-height: 2rem;
     color: #B7B7B7;
 }
 
 .dog-text {
     position: absolute; /* relative to the "dog-posts-section" container */
-    bottom: 10px;
-    left:20px;
+    bottom: 0.625em;
+    left:1.25em;
 }
 
 /* ---------- Images ----------- */
@@ -68,7 +67,7 @@ body {
    width: 97%;
    height: 100%;
    margin: 0 auto;
-   border-radius: 13px;
+   border-radius: 0.81em;
    
 }
 
@@ -90,22 +89,22 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    padding: 10px;
-    box-shadow: 0px 10px 20px grey;
-    width: 60px;
-    height: 60px;
+    padding: 0.625em;
+    box-shadow: 0px 0.625em 1.25em grey;
+    width: 80px;
+    height: 80px;
 }
 
 .interaction-icon.cross:hover,
 .interaction-icon.cross:active {
     background: #FFE7EF;
-    box-shadow: 0px 10px 20px #EDD9DF;
+    box-shadow: 0px 0.625em 1.25em #EDD9DF;
 }
 
 .interaction-icon.heart:hover,
 .interaction-icon.heart:active {
     background: #DBFFF4;
-    box-shadow: 0px 10px 20px #CCF1E6;
+    box-shadow: 0px 0.625em 1.25em #CCF1E6;
 }
 
 
