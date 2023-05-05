@@ -1,0 +1,116 @@
+*, * ::before, * ::after {
+    box-sizing: border-box;
+}    
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---------- Layout ----------- */
+
+.header-icons-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.interaction-icons-section {
+    padding: 30px 0 0;
+}
+
+.interaction-icons-container {
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.dog-posts-section {
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+}
+
+/* ---------- Typography ----------- */
+.dog-description,
+.dog-bio {
+    margin: 0;
+}
+
+.dog-description {
+   font-weight: 600;
+   font-size: 20px;
+   color: white;
+}
+
+.dog-bio {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    color: #B7B7B7;
+}
+
+.dog-text {
+    position: absolute; /* relative to the "dog-posts-section" container */
+    bottom: 10px;
+    left:20px;
+}
+
+/* ---------- Images ----------- */
+
+.dog-img {
+   display: block;
+   object-fit: cover;
+   width: 97%;
+   height: 100%;
+   margin: 0 auto;
+   border-radius: 13px;
+   
+}
+
+/* ---------- Icons ----------- */
+
+.icon-profile,
+.icon-chat {
+    width: 25px;
+    height: 25px;
+}
+
+.icon-logo {
+    width: 60px;
+    height: 25px;
+}
+
+.interaction-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 10px 20px grey;
+    width: 60px;
+    height: 60px;
+}
+
+.interaction-icon.cross:hover,
+.interaction-icon.cross:active {
+    background: #FFE7EF;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
+
+.interaction-icon.heart:hover,
+.interaction-icon.heart:active {
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px #CCF1E6;
+}
+
+
+.icon-cross,
+.icon-heart{   
+    width: 55%;
+    height: 50%;
+}
