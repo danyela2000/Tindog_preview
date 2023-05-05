@@ -71,6 +71,15 @@ body {
    
 }
 
+.badge {
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    transform: rotate(-30deg);
+    width: 160px;
+    height: 80px;
+}
+
 /* ---------- Icons ----------- */
 
 .icon-profile,
